@@ -15,13 +15,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": true,  
     "require": {
         "php": ">=5.4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.8.34",
-        "squizlabs/php_codesniffer": "^3"
+        "squizlabs/php_codesniffer": "^3",
+        "php-di/php-di": "^5.2",
+        "doctrine/annotations": "^1.2"
     },
     "repositories": [
         {
@@ -31,10 +33,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "wee\\": "framework/",
-            "wee\\Models\\": "Models/",
-            "wee\\Views\\": "Views/",
-            "wee\\Controllers\\": "Controllers/"
+            "wee\\Base\\": "framework/base/",
         }
     },
     "config": {
