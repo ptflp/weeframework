@@ -1,11 +1,12 @@
 {
     "name": "ptflp/weeframework",
-    "description": "Wee framework - slim framework for self developing",
+    "description": "Wee framework  - Development Package",
     "keywords": [
         "wee",
         "framework"
     ],
     "license": "BSD-3-Clause",
+    "type": "wee-extension",
     "authors": [
         {
             "name": "Petr Filippov",
@@ -15,9 +16,6 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "replace": {
-        "yiisoft/yii2": "self.version"
-    },
     "require": {
         "php": ">=5.4.0"
     },
