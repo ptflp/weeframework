@@ -15,7 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true,  
+    "prefer-stable": true,
     "require": {
         "php": ">=5.4.0"
     },
@@ -33,7 +33,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "wee\\Base\\": "framework/base/",
+            "wee\\Base\\": "framework/base/"
         }
     },
     "config": {
