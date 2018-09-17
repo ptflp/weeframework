@@ -1,6 +1,6 @@
 <?php
 
-namespace wee/Base;
+namespace wee\Base;
 
 /**
  * Base class App
